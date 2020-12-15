@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TiliTologatos"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="511.308" Width="417.439">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Button1" Content="1" HorizontalAlignment="Left" Margin="26,65,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="135,65,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="244,65,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="26,172,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="135,172,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="244,172,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="26,279,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="135,279,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="244,279,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+
     </Grid>
 </Window>
