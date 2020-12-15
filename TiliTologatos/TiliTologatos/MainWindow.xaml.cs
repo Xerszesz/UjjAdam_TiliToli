@@ -38,6 +38,15 @@ namespace TiliTologatos
             int ezGombFelirat = int.Parse(ezGomb.Content.ToString());
             int ezGombIndex = Array.IndexOf(helyzet, ezGombFelirat);
             int nullaGombIndex = Array.IndexOf(helyzet, 0);
-        }
+
+            if ((fTav == 100 && vTav == 0) || (vTav == 100 && fTav == 0))
+            {
+                var seged = ezGomb.Margin;
+                ezGomb.Margin = nullaGomb.Margin;
+                nullaGomb.Margin = seged;
+
+                helyzet[nullaGombIndex] = helyzet[ezGombFelirat];
+                helyzet[ezGombFelirat] = 0;
+            }
     }
 }
