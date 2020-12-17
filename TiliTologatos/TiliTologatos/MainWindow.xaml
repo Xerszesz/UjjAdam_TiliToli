@@ -10,15 +10,20 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="Button1" Content="1" HorizontalAlignment="Left" Margin="26,65,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
-        <Button x:Name="Button2" Content="2" HorizontalAlignment="Left" Margin="135,65,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
-        <Button x:Name="Button3" Content="3" HorizontalAlignment="Left" Margin="244,65,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
-        <Button x:Name="Button4" Content="4" HorizontalAlignment="Left" Margin="26,172,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
-        <Button x:Name="Button5" Content="5" HorizontalAlignment="Left" Margin="135,172,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
-        <Button x:Name="Button6" Content="6" HorizontalAlignment="Left" Margin="244,172,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
-        <Button x:Name="Button7" Content="7" HorizontalAlignment="Left" Margin="26,279,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
-        <Button x:Name="Button8" Content="8" HorizontalAlignment="Left" Margin="135,279,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
-        <Button x:Name="Button0" Content="0" HorizontalAlignment="Left" Margin="244,279,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="26,65,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="135,65,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="244,65,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="26,172,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="135,172,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="244,172,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="26,279,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="135,279,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="244,279,0,0" VerticalAlignment="Top" Width="109" Height="107" FontSize="24"/>
+        <Button x:Name="Newgamebutton" Content="New Game" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" Width="109"/>
+        <TextBlock x:Name="lepesek" HorizontalAlignment="Left" Margin="120,421,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Lepesszoveg" HorizontalAlignment="Left" Margin="26,421,0,0" TextWrapping="Wrap" Text="Lépésszámláló" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Winner" HorizontalAlignment="Left" Margin="158,35,0,0" TextWrapping="Wrap" Text="Your Winner" VerticalAlignment="Top"/>
+        <Grid x:Name="elemTartó" HorizontalAlignment="Left" Height="321" Margin="26,65,0,0" VerticalAlignment="Top" Width="327"/>
 
     </Grid>
 </Window>
