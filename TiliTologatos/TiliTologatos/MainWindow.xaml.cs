@@ -48,5 +48,11 @@ namespace TiliTologatos
                 helyzet[nullaGombIndex] = helyzet[ezGombFelirat];
                 helyzet[ezGombFelirat] = 0;
             }
+
+            if (helyzet.SequenceEqual(kesz))
+            {
+
+            }
+        }
     }
 }
